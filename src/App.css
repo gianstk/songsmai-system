@@ -7,10 +7,3 @@
   font-family: 'Lato', sans-serif;
   font-family: 'Prompt', sans-serif;
 }
-
-.App {
-  max-width: 1100px; 
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-}

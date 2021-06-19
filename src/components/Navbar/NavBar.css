@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #777;
+  color: #fff;
+  /* height: 70px; */
+  padding: 20px auto;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .router-link {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  font-size: 20px;
+}
+
+#logo {
+  font-size: 25px;
+}

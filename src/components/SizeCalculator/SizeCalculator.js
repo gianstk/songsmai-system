@@ -75,6 +75,7 @@ const SizeCalculator = () => {
   const calculateSize = () => {
     if (!a1 || !a2 || !a6 || !a7 || !a8 || !a10) {
       alert("กรุณากรอกข้อมูลให้ครบ\nไหล่ แขนยาว อก เอว สะโพก คอ");
+      return
     }
 
     const measurement = {
@@ -89,9 +90,10 @@ const SizeCalculator = () => {
       a9: parseInt(a9),
       a10: parseInt(a10),
     }
-
     const cal = new SizeCalculation(measurement);
-    cal.getSize();
+    const result = cal.getSize();
+    alert("size ");
+    return;
 
     
   }
@@ -99,7 +101,7 @@ const SizeCalculator = () => {
 
 
   return (
-    <div className="sizeCalculator" style={{marginTop: "30px"}}>
+    <div className="sizeCalculator container" style={{marginTop: "30px"}}>
       <h1>ใบวัดตัว</h1>
       <div className="flex" style={{flexDirection: "row", marginTop: "10px"}}>
 
