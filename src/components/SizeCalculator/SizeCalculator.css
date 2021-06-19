@@ -1,0 +1,46 @@
+
+.input-group {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.input-group > div {
+  display: table-cell;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+
+.input-group-icon {
+  background: #eee;
+  color: #777;
+  padding: 0 12px;
+}
+
+.input-group-area {
+  width: 100%;
+}
+
+.input-group input {
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.calculate-btn {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px 0px;
+  font-size: 1.5em;
+  color: #777;
+  border: 3px solid #ddd;
+  border-radius: 15px;
+}
+
+.calculate-btn:active {
+  border: 3px solid #aaa;
+}
